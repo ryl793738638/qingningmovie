@@ -1,0 +1,22 @@
+{
+  "name": "qingningserver",
+  "version": "0.0.0",
+  "private": true,
+  "scripts": {
+    "start": "nodemon ./bin/www"
+  },
+  "dependencies": {
+    "cookie-parser": "~1.4.4",
+    "debug": "~2.6.9",
+    "ejs": "^3.1.2",
+    "express": "~4.16.1",
+    "express-session": "^1.15.6",
+    "http-errors": "~1.6.3",
+    "mongodb": "^3.5.6",
+    "mongoose": "^5.9.10",
+    "morgan": "~1.9.1",
+    "multer": "^1.4.2",
+    "nodemailer": "^6.4.6",
+    "trek-captcha": "^0.4.0"
+  }
+}
